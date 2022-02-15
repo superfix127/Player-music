@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assects/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <!-- Dashboard -->
+        <div class="dashboard">
+            <!-- HEADER -->
+            <header class="header">
+                <h4>Now playing:</h4>
+                <h2>Name music</h2>
+            </header>
+            <!-- CD -->
+            <div class="cd">
+                <div class="cd-thumb">
+                    <img src="" alt="" class="img-header">
+                </div>
+            </div>
+            <!-- CONTROL -->
+            <div class="control">
+                <div class="btn btn-repeat">
+                    <i class="fas fa-redo icon-repeat"></i>
+                </div>
+                <div class="btn btn-prev">
+                    <i class="fas fa-step-backward icon-prev"></i>
+                </div>
+                <div class="btn btn-touggle-play">
+                    <i class="fas fa-pause icon-pause"></i>
+                    <i class="fas fa-play icon-play"></i>
+                </div>
+                <div class="btn btn-next">
+                    <i class="fas fa-step-forward icon-next"></i>
+                </div>
+                <div class="btn btn-random">
+                    <i class="fas fa-random icon-random"></i>
+                </div>
+            </div>
+            <input type="range" id="progress" class="progress" value="0" step="1" min="0" max="100">
+            <audio src="" class="audio"></audio>
+        </div>
+        <!-- Playlist -->
+        <div class="playlist">
+        </div>
+    </div>
+    <script src="./assects/js/app.js"></script>
+</body>
+</html>
